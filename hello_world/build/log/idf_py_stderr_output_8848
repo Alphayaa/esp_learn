@@ -1,0 +1,29 @@
+CMake Error: Could not open file for write in copy operation F:/Learn/esp/hello_world/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c.tmp
+CMake Error: : System Error: Permission denied
+CMake Error at D:/ESP_IDF/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CheckIncludeFile.cmake:57 (configure_file):
+  configure_file Problem configuring file
+Call Stack (most recent call first):
+  D:/ESP_IDF/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CheckTypeSize.cmake:256 (check_include_file)
+  D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.2/CMakeLists.txt:249 (check_type_size)
+
+
+CMake Error:
+  Running
+
+   'D:/ESP_IDF/Espressif/tools/ninja/1.11.1/ninja.exe' '-C' 'F:/Learn/esp/hello_world/build/CMakeFiles/CMakeTmp' '-t' 'recompact'
+
+  failed with:
+
+   ninja: error: loading 'build.ninja': The system cannot find the file specified.
+
+  
+
+
+
+CMake Error at D:/ESP_IDF/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CheckIncludeFile.cmake:95 (try_compile):
+  Failed to generate test project build system.
+Call Stack (most recent call first):
+  D:/ESP_IDF/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CheckTypeSize.cmake:257 (check_include_file)
+  D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.2/CMakeLists.txt:249 (check_type_size)
+
+

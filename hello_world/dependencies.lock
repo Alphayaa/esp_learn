@@ -1,0 +1,34 @@
+dependencies:
+  espressif/cmake_utilities:
+    component_hash: 351350613ceafba240b761b4ea991e0f231ac7a9f59a9ee901f751bddc0bb18f
+    source:
+      type: service
+    version: 0.5.3
+  espressif/led_indicator:
+    component_hash: 8ffbd4d0c3f996c10b5d4d23e1f13fa012684e7f97369a0d5442b8d58e6b587f
+    source:
+      type: service
+    version: 0.9.3
+  espressif/led_strip:
+    component_hash: b578eb926d9f6402fd45398b53c9bd5d1b7a15c1b2974d25aa3088e6c79b0b4c
+    source:
+      type: service
+    version: 3.0.1
+  espressif/servo:
+    component_hash: 309c787e48224255fad458cfd9ab86ea53f0fdad1c5e4f6f0c50309990b17108
+    source:
+      type: service
+    version: 0.1.0
+  espressif/ssd1306:
+    component_hash: 102cfc05b1b304862fa3f494e9dd955844bcc5f6cb16596e4ca5df3e6bf9fd0d
+    source:
+      type: service
+    version: 1.0.5~1
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.2
+manifest_hash: 32c3eb6eae8771314f3eb68e339e50e4f63c5d202757ee777ec8d93916c16dad
+target: esp32s3
+version: 1.0.0

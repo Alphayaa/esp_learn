@@ -1,0 +1,21 @@
+CMake Error at D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.2/tools/cmake/component.cmake:224 (message):
+  CMake Error at
+  D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.2/tools/cmake/scripts/component_get_requirements.cmake:3
+  (include):
+
+    include could not find requested file:
+
+  
+
+      F:/Learn/esp/unit_test/build/build_properties.temp.cmake
+
+  
+
+  
+
+Call Stack (most recent call first):
+  D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.2/tools/cmake/build.cmake:578 (__component_get_requirements)
+  D:/ESP_IDF/Espressif/frameworks/esp-idf-v5.2.2/tools/cmake/project.cmake:605 (idf_build_process)
+  CMakeLists.txt:5 (project)
+
+
